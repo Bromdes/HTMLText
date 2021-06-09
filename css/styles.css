@@ -1,0 +1,57 @@
+#top{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: Times New Roman, serif;
+}
+
+body{
+  background: #87CEEB;
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 30px;
+}
+
+hr{
+  border-color: white;
+  background-color: white;
+}
+
+#mainmenu {
+  background: #B0E0E6;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0
+}
+#mainmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+  font-size: 18px;
+  font-family: Times New Roman, serif;
+}
+#mainmenu ul li {
+  position: relative;
+  left: -50%;
+  float: left;
+  margin: 0 10px;
+}
+#mainmenu ul li a {
+  background: white;
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 0 5px;
+  line-height: 40px;
+}
+#mainmenu ul li a:hover {
+  color: white;
+  background-color: black;
+}
+
+#pImg{
+  text-align: center;
+}
